@@ -1,0 +1,52 @@
+.header {
+    position:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    padding: 0.2rem;
+    background-color:rgba(241, 238, 221, 0.874);
+    z-index: 1000;
+  }
+  .header .logo {
+    color: var(--blackColor);
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin:0%;
+  }
+  img{
+    height: 80px;
+    width: 115px;
+  }
+  
+
+  .header .icon {
+    /*transform: translateY(5px);*/
+    margin-top: 1rem;
+    padding-right: 0rem;
+    color:black;
+  }
+
+.header2{
+  position: fixed;
+  margin-top: 135px;
+  width:100%;
+  left: 0%;
+  background-color:rgb(60, 98, 85);
+  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+}
+.header2 .navLists {
+    display: flex;
+    column-gap: 2cm;
+    color: transparent;
+}
+.navLink{
+  color:wheat;
+  font-size: large;
+}
+.image{
+  height:20px;
+}
